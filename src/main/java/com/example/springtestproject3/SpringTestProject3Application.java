@@ -1,5 +1,6 @@
 package com.example.springtestproject3;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,4 +11,10 @@ public class SpringTestProject3Application {
         SpringApplication.run(SpringTestProject3Application.class, args);
     }
 
+//
+//    @PostConstruct
+//    public void test(){
+//        TestService testService=new TestService();
+//        testService.sendNotification(1L,"SMS");
+//    }
 }
